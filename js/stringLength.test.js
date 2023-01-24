@@ -1,4 +1,4 @@
-const stringLength = require('./task-1');
+const stringLength = require('./stringLength');
 
 it('Should return 6 as the length of the string: border', () => {
   expect(stringLength('border')).toBe(6);
